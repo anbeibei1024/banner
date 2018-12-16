@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="banner_height">180dp</dimen>
+    <dimen name="banner_bg">257dp</dimen>
+</resources>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="10"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="9"
+        android:clipChildren="false"
+        android:orientation="vertical"
+        >
+
+        <com.bigkoo.convenientbanner.view.CBLoopViewPager
+            android:id="@+id/cbLoopViewPager"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:clipChildren="false" />
+
+    </RelativeLayout>
+
+    <!-- 翻页指示点的viewgroup -->
+    <RelativeLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:gravity="center_vertical"
+        android:layout_height="0dp">
+
+        <LinearLayout
+            android:id="@+id/loPageTurningPoint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp"
+            android:orientation="horizontal"></LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout><!-- From: file:/Users/Sai/Documents/workpace/android/github/Android-ConvenientBanner/convenientbanner/src/main/res/layout/include_viewpager.xml -->

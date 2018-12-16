@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rl_pic_root"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/banner_height">
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/sdv_home_banner"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/banner_height"
+        fresco:placeholderImage="@color/base_pic_bg"
+        fresco:placeholderImageScaleType="centerCrop"
+        fresco:roundedCornerRadius="6dp" />
+
+    <!--<TextView-->
+    <!--android:id="@+id/tv_home_banner_title"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="@dimen/d36"-->
+    <!--android:layout_alignParentBottom="true"-->
+    <!--android:background="@color/base_masking"-->
+    <!--android:gravity="center_vertical"-->
+    <!--android:paddingLeft="@dimen/d10"-->
+    <!--android:paddingRight="@dimen/d66"-->
+    <!--android:singleLine="true"-->
+    <!--android:textColor="@color/color_white"-->
+    <!--android:textSize="@dimen/s15"-->
+    <!--tools:text="标题" />-->
+</RelativeLayout>
