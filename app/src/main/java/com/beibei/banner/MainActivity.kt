@@ -5,6 +5,7 @@ import android.support.v7.app.AppCompatActivity
 import android.widget.Toast
 import com.facebook.drawee.backends.pipeline.Fresco
 import kotlinx.android.synthetic.main.activity_main.*
+import java.util.*
 
 class MainActivity : AppCompatActivity() {
     private var mBannerList = ArrayList<NewsBean>()//banner集合
